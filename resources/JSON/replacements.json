@@ -1,0 +1,11 @@
+{
+    "$member.tag$": "${member.user.tag}",
+    "$member.username$": "${member.user.username}",
+    "$member.join.number$": "${memberNumber.toLocaleString()}",
+    "$member.avatar$": "${member.user.displayAvatarURL()}", 
+    "$server.name$": "${guild.name}",
+    "$server.icon$": "${guild.iconURL({ format: 'png', dynamic: true, size: 512 })}",
+    "$server.member.count$": "${guild.memberCount.toLocaleString()}",
+    "$server.id$": "${guild.id}",
+    "$server.created$": "${guild.createdTimestamp}"
+}
